@@ -1,0 +1,11 @@
+name: SCHALE's Task
+description: TechTree allows you to research. By advancing research, you will be able to build new buildings. Start your research.
+size: 2
+alwaysUnlocked: true
+inEditor: false
+placeablePlayer: false
+placeableOn: false
+enableDrawStatus: false
+research: {
+  parent: core-shard
+}
