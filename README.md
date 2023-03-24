@@ -11,7 +11,7 @@
 ## 利用規約
 
 - [ブルーアーカイブ二次創作ガイドライン](https://bluearchive.jp/fankit/guidelines)と[Mindustryのライセンス](https://github.com/Anuken/Mindustry/blob/master/LICENSE)の内容の範囲内での活動に限り、自由に使用することが可能です。
-- このmodの使用により発生した損害、損失、不利益に対しては責任を負いません。自己責任の上での使用してください。
+- このmodによって発生した損害、損失、不利益に対しては責任を負いません。自己責任の上での使用してください。
 
 ## 問い合わせ先
 [Twitter](https://twitter.com/YukuSOH)
