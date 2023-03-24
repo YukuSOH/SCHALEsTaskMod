@@ -1,0 +1,7 @@
+name: "schalestaskmod"
+displayName: "SCHALE'sTaskMod"
+author: "YukuSOH"
+description: "(This mod is BlueArchive fan mod.) Sensei, let's get to work! Send weapons used by students as relief supplies."
+version: "0.1.0"
+minGameVersion: "142"
+hideBrowser: false

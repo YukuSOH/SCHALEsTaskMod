@@ -1,0 +1,47 @@
+type: mech
+name: Peroro-sama
+description: ohno
+controller: SuicideAI
+armor: 20
+speed: 1.5
+targetPriority: -2
+hitSize: 13
+rotateSpeed: 1.5
+health: 2520
+isEnemy: false
+targetAir: true
+targetGround: true
+circleTarget: true
+mechFrontSway: 0.55
+legCount: 2
+weapons:
+[
+   {
+      alwaysShooting: true
+      mirror: false
+      reload: 60
+      shootCone: 180
+      ejectEffect: none
+      shootSound: explosion
+      x: 0
+      y: 0
+      shootY: 0
+      mirror: false
+      bullet:
+      {
+         height: 0
+         width: 0
+         collidesTiles: false
+         collides: false
+         hitSound: explosion
+         rangeOverride: 30
+         hitEffect: pulverize
+         speed: 0
+         splashDamageRadius: 40
+         splashDamage: 120
+         hittable: false
+         collidesAir: true
+      }
+   }
+]
+

@@ -1,0 +1,36 @@
+type: UnitFactory
+category: units
+name: Abydos Factory
+description: ohno
+health: 500
+size: 3
+consumes:
+{
+   power: 8
+}
+plans:
+[
+   {
+      unit: fire-drone
+      time: 360
+      requirements:
+      [
+         {
+            item: silicon
+            amount: 30
+         }
+         {
+            item: titanium
+            amount:  100
+         }
+      ]
+   }
+]
+requirements:
+[
+   {
+      item: titanium
+      amount: 200
+   }
+]
+research: core-shard

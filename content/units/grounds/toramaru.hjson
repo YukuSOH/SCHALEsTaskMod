@@ -1,0 +1,76 @@
+type: mech
+name: Toramaru
+description: ohno
+armor: 40
+speed: 0.5
+hitSize: 24
+rotateSpeed: 0.7
+health: 5062
+isEnemy: false
+targetAir: true
+targetGround: true
+circleTarget: true
+mechFrontSway: 0.55
+weapons:
+[
+   {
+      name: toramaru-main-gun
+      mirror: false
+      x: 0
+      y: 0
+      shootY: 15
+      rotate: true
+      rotateSpeed: 2.0
+      reload: 120
+      ejectEffect: casing1
+      shootSound: explosion
+      bullet:
+      {
+         range: 70
+         damage: 488
+         speed: 15
+         splashDamage: 488
+         splashDamageRadius: 16
+         scaledSplashDamage: true
+         width: 10.5
+         height: 13.5
+         lifetime: 45
+         shootEffect: none
+         smokeEffect: shootSmallSmoke
+         lightColor: fa6070ff
+         ammoMultiplier: 1
+      }
+   }
+   {
+      name: toramaru-sub-gun
+      mirror: false
+      x: 0
+      y: 0
+      shootY: -15
+      reload: 480
+      ejectEffect: casing1
+      shootSound: explosion
+      shoot:
+      {
+         shots: 4
+         shotDelay: 20
+      }
+      bullet:
+      {
+         range: 120
+         damage: 280
+         speed: 10
+         splashDamage: 140
+         splashDamageRadius: 30
+         scaledSplashDamage: true
+         width: 10.5
+         height: 13.5
+         lifetime: 45
+         shootEffect: none
+         smokeEffect: shootSmallSmoke
+         lightColor: fa6070ff
+         ammoMultiplier: 1
+      }
+   }
+]
+

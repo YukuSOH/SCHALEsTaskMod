@@ -1,0 +1,27 @@
+type: ForceProjector
+name: Q.E.D
+description: ohno
+health: 3146
+size: 2
+hasItems: false
+hasLiquids: false
+consumeCoolant: false
+radius: 20
+shieldHealth: 3732
+phaseUseTime: 0
+phaseRadiusBoost: 0
+phaseShieldBoost: 0
+cooldownBrokenBase: 2.488
+cooldownNormal: 1.866
+consumes:
+{
+   power: 2.4
+}
+requirements:
+[
+   {
+      item: copper
+      amount: 100
+   }
+]
+category: defense

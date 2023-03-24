@@ -1,0 +1,31 @@
+type: Reconstructor
+category: units
+name: Additive Peroro-sama Reconstructor
+description: ohno
+health: 500
+size: 3
+consumes:
+{
+   power: 16
+   items:
+   {
+      item: silicon
+      amount: 100
+   }
+   {
+      item: titanium
+      amount: 500
+   }
+}
+upgrades:
+[
+   [peroro-sama, peroro-sama-large]
+]
+requirements:
+[
+   {
+      item: titanium
+      amount: 200
+   }
+]
+research: core-shard
