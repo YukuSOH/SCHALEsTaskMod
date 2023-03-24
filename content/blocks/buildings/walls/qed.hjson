@@ -13,6 +13,7 @@ phaseRadiusBoost: 0
 phaseShieldBoost: 0
 cooldownBrokenBase: 2.488
 cooldownNormal: 1.866
+category: defense
 consumes:
 {
    power: 2.4
@@ -24,4 +25,10 @@ requirements:
       amount: 100
    }
 ]
-category: defense
+research: {
+  parent: schale-task
+  requirements: [
+    copper/100
+  ]
+}
+
