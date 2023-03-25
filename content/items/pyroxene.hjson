@@ -2,6 +2,7 @@ type: material
 name: Pyroxene
 description: ohno
 cost: 2.0
+color: 2ff3ff
 research: {
-  parent: schale-task
+  parent: credit
 }
