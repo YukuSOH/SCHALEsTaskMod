@@ -1,0 +1,8 @@
+type: material
+name: Credit
+description: ohno
+cost: 1.0
+color: fbe259
+research: {
+  parent: schale-task
+}

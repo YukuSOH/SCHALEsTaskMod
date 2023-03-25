@@ -1,0 +1,8 @@
+type: material
+name: Credit x100
+description: ohno
+cost: 1.0
+color: fbe259
+research: {
+  parent: credit
+}
