@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Angel 24 Branch Store (PhaseFabric)
+description: ohno
+size: 2
+hasItems: true
+craftTime: 15
+updateEffect: none
+itemCapacity: 500
+category: crafting
+canOverdrive: false
+consumes:
+{
+   power: 0.5
+   items:
+   {
+      items:
+      [
+         phase-fabric/1
+      ]
+   }
+}
+outputItem: credit/10
+requirements:
+[
+   copper/60
+   lead/30
+   silicon/40
+   graphite/40
+]
+research:
+{
+   parent: angel24-branch-titanium
+   requirements:
+   [
+      credit-5k/1
+   ]
+}

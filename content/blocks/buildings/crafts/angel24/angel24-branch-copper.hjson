@@ -1,0 +1,40 @@
+type: GenericCrafter
+name: Angel 24 Branch Store (Copper)
+description: ohno
+size: 2
+hasItems: true
+craftTime: 10
+updateEffect: none
+itemCapacity: 500
+category: crafting
+canOverdrive: false
+consumes:
+{
+   power: 0.5
+   items:
+   {
+      items:
+      [
+         copper/1
+      ]
+   }
+}
+outputItem: credit/1
+requirements:
+[
+   copper/60
+   lead/30
+   silicon/40
+   graphite/40
+]
+research:
+{
+   parent: schale-task
+   requirements:
+   [
+      copper/120
+      lead/60
+      silicon/80
+      graphite/80
+   ]
+}
