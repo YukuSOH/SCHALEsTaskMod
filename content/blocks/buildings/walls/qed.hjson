@@ -25,9 +25,11 @@ requirements:
       amount: 100
    }
 ]
-research: {
-  parent: schale-task
-  requirements: [
+research:
+{
+  parent: angel24-branch-copper
+  requirements:
+  [
     copper/100
   ]
 }
