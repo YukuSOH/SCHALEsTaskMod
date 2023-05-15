@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Angel 24 Branch Store (Trade Credit x5000)
+description: ohno
+size: 2
+hasItems: true
+craftTime: 300
+updateEffect: none
+itemCapacity: 1000
+category: crafting
+canOverdrive: false
+consumes:
+{
+   power: 0.5
+   items:
+   {
+      items:
+      [
+         credit-100/50
+      ]
+   }
+}
+outputItem: credit-5k/1
+requirements:
+[
+   copper/60
+   lead/30
+   silicon/40
+   graphite/40
+]
+research:
+{
+   parent: angel24-branch-credit-100
+   requirements:
+   [
+      credit-100/20
+   ]
+}
