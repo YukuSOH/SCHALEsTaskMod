@@ -5,6 +5,7 @@ alwaysUnlocked: true
 inEditor: false
 placeablePlayer: false
 placeableOn: false
+buildVisibility: hidden
 enableDrawStatus: false
 research: {
   parent: core-shard
